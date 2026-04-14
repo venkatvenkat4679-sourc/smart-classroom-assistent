@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AI Chat</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🤖 AI Chatbot</h1>
+
+<div class="chat-box" id="chatBox"></div>
+
+<input type="text" id="msg" placeholder="Ask something...">
+<button onclick="reply()">Send</button>
+
+<br><br>
+<a href="dashboard.html"><button>⬅ Back</button></a>
+
+</div>
+
+<script>
+function reply(){
+    let msg = document.getElementById("msg").value;
+    let box = document.getElementById("chatBox");
+
+    box.innerHTML += "<p style='color:#00ff87'>You: "+msg+"</p>";
+    box.innerHTML += "<p style='color:#fff'>AI: Nice question 😎</p>";
+
+    document.getElementById("msg").value="";
+}
+</script>
+
+<style>
+.chat-box {
+    height: 250px;
+    overflow-y: auto;
+    background: rgba(0,0,0,0.4);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 15px;
+}
+</style>
+
+</body>
+</html>

@@ -1,0 +1,175 @@
+
+body {
+    margin: 0;
+    font-family: 'Poppins';
+
+    background:
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("https://in.pinterest.com/pin/1759287347692603/");
+
+    background-size: cover;
+}
+
+/* CONTAINER */
+.container {
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
+
+/* CARDS */
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+/* CARD DESIGN */
+.card {
+    text-decoration: none;
+    color: white;
+    width: 150px;
+    padding: 20px;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    transition: 0.4s;
+}
+
+/* ICON */
+.icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+/* 🔥 HOVER */
+.card:hover {
+    transform: translateY(-10px) scale(1.1);
+    background: #ff7eb3;
+    box-shadow: 0 0 20px #ff7eb3;
+}
+
+/* PREVIEW BOX */
+.preview {
+    margin: 40px auto;
+    width: 60%;
+    padding: 20px;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.15);
+}
+
+/* PROGRESS BAR */
+.progress-bar {
+    width: 100%;
+    background: rgba(255,255,255,0.3);
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    padding: 10px;
+    text-align: right;
+    background: linear-gradient(90deg,#00ff87,#60efff);
+    border-radius: 30px;
+    font-weight: bold;
+}
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* BACKGROUND */
+.login-bg {
+    height: 100vh;
+    background: linear-gradient(135deg,#36d1dc,#5b86e5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CARD */
+.login-card {
+    display: flex;
+    width: 750px;
+    height: 400px;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* LEFT IMAGE */
+.left {
+    width: 50%;
+    background: #f5f5f5;
+}
+
+.left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* RIGHT FORM */
+.right {
+    width: 50%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right h2 {
+    margin-bottom: 20px;
+}
+
+/* INPUT */
+.right input {
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #ccc;
+}
+
+/* BUTTON */
+.right button {
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background: #ff7a59;
+    color: white;
+    cursor: pointer;
+}
+
+.right button:hover {
+    background: #ff4d4d;
+}
+
+/* LINK */
+.link {
+    margin-top: 10px;
+    font-size: 12px;
+    color: gray;
+}
+.left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.login-bg {
+    height: 100vh;
+
+    background: 
+        linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+        url("https: //in .pinterest .com/pin/ 1759287347692603px / .;");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
